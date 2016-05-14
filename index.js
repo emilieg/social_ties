@@ -5,6 +5,9 @@ var ejsLayout = require("express-ejs-layouts");
 var request = require('request');
 var bodyParser = require('body-parser');
 
+var eventfulCtrl = require("./controllers/eventful")
+app.use("/eventful", eventfulCtrl);
+
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(ejsLayout);
@@ -14,6 +17,11 @@ app.use(ejsLayout);
 app.get('/', function(req, res){
   res.send('hello Emilie');
 });
+
+
+
+
+
 
 
 
