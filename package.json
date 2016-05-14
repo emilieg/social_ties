@@ -1,0 +1,29 @@
+{
+  "name": "social_ties",
+  "version": "1.0.0",
+  "description": "Find an interesting event near you today.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilieg/social_ties.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilieg/social_ties/issues"
+  },
+  "homepage": "https://github.com/emilieg/social_ties#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-ejs-layouts": "^2.1.0",
+    "pg": "^4.5.5",
+    "pg-hstore": "^2.3.2",
+    "router": "^1.1.4",
+    "sequelize": "^3.23.1"
+  }
+}
